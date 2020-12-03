@@ -167,3 +167,28 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Bootmagic Lite key configuration */
 // #define BOOTMAGIC_LITE_ROW 0
 // #define BOOTMAGIC_LITE_COLUMN 0
+
+
+/* Tapping duration for Tap Dance keys and LT() MT()*/ 
+#define TAPPING_TERM 210
+
+/* 
+    Changes behavior of MT(mod, kc) and LT(layer, kc) to allow combos before the 
+    TAPPING_TERM if another key is pressed as they are held
+*/
+#define PERMISSIVE_HOLD
+
+/* Enforces hold behavior on MT(mod, kc) and LT(layer, kc) */
+#define TAPPING_FORCE_HOLD
+
+/* Mousekeys settings */
+#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_INTERVAL 16
+#define MOUSEKEY_MAX_SPEED 5
+#define MOUSEKEY_TIME_TO_MAX 15
+#define MOUSEKEY_WHEEL_DELAY 0
+
+#define FORCE_NKRO
+
+#define NO_ACTION_MACRO
+#define NO_ACTION_FUNCTION
