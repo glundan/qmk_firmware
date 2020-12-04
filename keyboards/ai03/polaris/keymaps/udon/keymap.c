@@ -93,22 +93,22 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 			break;
 		case VERIFY_1:
 			if (record->event.pressed) {
-				verified = KNOCK_V1;
+				verified = KNOCK_1;
 			}
 			break;
 		case VERIFY_2:
 			if (record->event.pressed) {
-				verified = KNOCK_V2;
+				verified = KNOCK_2;
 			}
 			break;
 		case VERIFY_3:
 			if (record->event.pressed) {
-				verified = KNOCK_V3;
+				verified = KNOCK_3;
 			}
 			break;
 		case VERIFY_4:
 			if (record->event.pressed) { 
-				verified = KNOCK_V4;
+				verified = KNOCK_4;
 			}
 			break;
 		case SPAM_2:
